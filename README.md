@@ -1,9 +1,12 @@
 
- This is Python  code to produce IPCC AR6 WGI Figure 6.15<br>
- Creator: Sara Blichner, University of Oslo (now Stockholm University)<br>
- Contact: sara.blichner@gmail.com<br>
- Last updated on: Feb 23, 2022
- ----------------------------------------------------------------------------------------------------
+# Code to produce Fig 6.15 in the IPCC WG1 6th assessment report
+
+This is Python  code to produce IPCC AR6 WGI Figure 6.15<br>
+Creator: Sara Blichner, University of Oslo (now Stockholm University)<br>
+Contact: sara.blichner@gmail.com<br>
+Last updated on: Feb 23, 2022
+
+----------------------------------------------------------------------------------------------------
 ## Code functionality: 
 To make figure, run:
 ```bash
