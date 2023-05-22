@@ -14,10 +14,10 @@ python delta_T_CO2_plots_final.py
 ```
 Plots are saved in the repository "plots/"
 
-For documentation, see the notebook [delta_T_CO2_plots_final.ipynb](delta_T_CO2_plots_final.ipynb) or [delta_T_CO2_plots_final.pdf](delta_T_CO2_plots_final.pdf).
+For documentation, see the notebook [delta_T_CO2_plots_final.ipynb](delta_T_CO2_plots_final.ipynb) or [documentation/delta_T_CO2_plots_final.pdf](documentation/delta_T_CO2_plots_final.pdf).
 
 ## Input data: 
-Input data is in [recommended_irf_from_2xCO2_2021_02_25_222758.csv](recommended_irf_from_2xCO2_2021_02_25_222758.csv) which contains the coefficients for the recommended IRF used in AR6. 
+Input data is in [input_data/recommended_irf_from_2xCO2_2021_02_25_222758.csv](input_data/recommended_irf_from_2xCO2_2021_02_25_222758.csv) which contains the coefficients for the recommended IRF used in AR6. 
 ## Output variables:
 
 The code plots the figure as in the report.
