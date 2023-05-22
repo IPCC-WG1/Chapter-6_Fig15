@@ -30,11 +30,18 @@ and then in  the base repository run:
 conda env create -f environment.yml
 conda activate ipcc_fig6_15
 ```
-- Operating System: Ubuntu 
-- Environment required to compile and run: See [requirements.txt](requirements.txt).
+- Operating System: Linux ( Ubuntu 20.04)
+- Environment required to compile and run: See [requirements.txt](requirements.txt) or run
+```bash
+conda env create -f environment.yml
+conda activate ipcc_fig6_15
+```
+in the base directory. 
 
 ## License: 
 Apache 2.0
 
 ## How to cite:
-Sara Blichner (2021) "IPCC-WG1/Chapter-6_Fig15", https://github.com/IPCC-WG1/Chapter-6_Fig15 
+When citing this code, please include both the code citation and the following citation for the related report component:
+
+Figure 6.15 in IPCC, 2021: Chapter 6. In: Climate Change 2021: The Physical Science Basis. Contribution of Working Group I to the Sixth Assessment Report of the Intergovernmental Panel on Climate Change [Szopa, S., V. Naik, B. Adhikary, P. Artaxo, T. Berntsen, W.D. Collins, S. Fuzzi, L. Gallardo, A. Kiendler-Scharr, Z. Klimont, H. Liao, N. Unger, and P. Zanis, 2021: Short-Lived Climate Forcers. In Climate Change 2021: The Physical Science Basis. Contribution of Working Group I to the Sixth Assessment Report of the Intergovernmental Panel on Climate Change [Masson-Delmotte, V., P. Zhai, A. Pirani, S.L. Connors, C. Péan, S. Berger, N. Caud, Y. Chen, L. Goldfarb, M.I. Gomis, M. Huang, K. Leitzell, E. Lonnoy, J.B.R. Matthews, T.K. Maycock, T. Waterfield, O. Yelekçi, R. Yu, and B. Zhou (eds.)]. Cambridge University Press, Cambridge, United Kingdom and New York, NY, USA, pp. 817–922, doi: 10.1017/9781009157896.008 .]
