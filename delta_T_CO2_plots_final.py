@@ -121,7 +121,7 @@ import pandas as pd
 # ## IRF file consistent with chapter 7 in report. 
 
 # %%
-fn_IRF_constants = 'recommended_irf_from_2xCO2_2021_02_25_222758.csv'
+fn_IRF_constants = 'input_data/recommended_irf_from_2xCO2_2021_02_25_222758.csv'
 irf_consts = pd.read_csv(fn_IRF_constants).set_index('id')
 
 ld1 = 'd1 (yr)'
@@ -144,18 +144,16 @@ med_irf = irf_consts.loc['recommendation']
 med_irf
 
 # %%
-tau1_irf =med_irf['tau1']#4.1  # 8.4
+tau1_irf = med_irf['tau1']#4.1  # 8.4
 tau2_irf = med_irf['tau2']#249.  # 409.5
 alpha1_irf = med_irf['alpha1']#c1_irf / tau1_irf
-alpha2_irf =  med_irf['alpha2']#c2_irf / tau2_irf
+alpha2_irf = med_irf['alpha2']#c2_irf / tau2_irf
 print(tau1_irf, tau2_irf)
 print(alpha1_irf,alpha2_irf)
 
 # %%
-#from useful_scit.imps import (np, plt, sns, pd)
 import numpy as np
 import matplotlib.pyplot as plt
-import seaborn as sns
 import pandas as pd
 # constants: 
 
@@ -551,9 +549,7 @@ def set_fontsize(ax, SM=8, MED=10, BIG=12):
 
 
 # %%
-import matplotlib.pyplot as plt
-from mpl_toolkits.axes_grid1.inset_locator import TransformedBbox, BboxPatch, BboxConnector 
-import numpy as np
+from mpl_toolkits.axes_grid1.inset_locator import TransformedBbox, BboxPatch, BboxConnector
 
 
 # %%
@@ -581,7 +577,6 @@ def mark_inset(parent_axes, inset_axes, loc1a=1, loc1b=1, loc2a=2, loc2b=2, **kw
 # %%
 import matplotlib.pyplot as plt
 
-from mpl_toolkits.axes_grid1.inset_locator import zoomed_inset_axes
 #from mpl_toolkits.axes_grid1.inset_locator import mark_inset
 
 import numpy as np
