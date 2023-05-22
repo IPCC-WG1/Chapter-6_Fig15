@@ -1,5 +1,6 @@
 
 # Code to produce Fig 6.15 in the IPCC WG1 6th assessment report
+[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.7957964.svg)](https://doi.org/10.5281/zenodo.7957964)
 
 This is Python  code to produce IPCC AR6 WGI Figure 6.15<br>
 Creator: Sara Blichner, University of Oslo (now Stockholm University)<br>
